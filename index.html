@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aska Lamen</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -11,15 +12,21 @@
     <header class="cabecalho">
         <!--Logo da página-->
         <div class="cabecalho__logo">
-            <h1>ASKA Lamen</h1>
-            <img src="img/AskaNovo.png" alt="escrita em japones aska lamen">
-            <img src="img/Lamen.jpg" alt="imagem de um desenho de lamen">
+            <div class="logo__nome">
+                <h1 id="nome__titulo">ASKA Lamen</h1>
+            </div>
+            <div class="logo__imagens">
+                <img src="img/AskaNovo.png" id="logo__imagem1" alt="escrita em japones aska lamen">
+                <img src="img/Lamen.jpg" id="logo__imagem2" alt="imagem de um desenho de lamen">
+            </div>
         </div>
         <!--menu de nav-->
         <div class="cabecalho__nav">
-            <p>Nosso Lamen</p>
-            <p>O Aska</p>
-            <p>Acesse o cardapio</p>
+            <ul class="nav__lista">
+                <li>Nosso Lamen</li>
+                <li>O Aska</li>
+                <li>Acesse o cardapio</li>
+            </ul>
         </div>
     </header>
 
@@ -78,7 +85,7 @@
         <!--Botão IFOOD-->
         <div class="principal__ifood">
             <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/lamen-aska-liberdade/aa77efe1-70b5-4380-b7aa-feae1069e940" target="_blank">
-                <img src="img/icone_ifood.jpg" alt="icone ifood">
+                <img id="ifood__img" src="img/icone_ifood.jpg" alt="icone ifood">
             </a>
         </div>
     </main>
