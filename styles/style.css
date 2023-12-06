@@ -111,3 +111,203 @@
     height: 81px;
     border-radius: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*O ASKA SOBRE*/
+/*Parte superior*/
+.principal__sobre-superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*Imagens1*/
+    .principal__sobre-superior-1-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .principal__sobre-superior-1-img img{
+        width: 124px;
+        height: 121px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+    /*Texto 1*/
+    .principal__sobre-superior-1-texto{ 
+        color: #000;
+        text-align: right;
+        font-family: Noto Sans JP;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: normal;
+    }
+    .principal__sobre-superior-1-texto p{ 
+        width: 155px;
+        height: 288px;
+        flex-shrink: 0;
+    }
+
+
+/*Parte inferior*/
+    .principal__sobre-inferior {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+/*Imagem Texto Japonês Lateral Imagem*/
+    .principal__sobre-inferior-1 img{
+        width: 69px;
+        height: 228px;
+        flex-shrink: 0;        
+    }
+
+/*Imagem e texto Geral*/
+    .principal__sobre-inferior-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+/*Imagem e texto IMAGEM*/
+.principal__sobre-inferior-2-img-texto {
+    display: flex;
+    flex-direction: row;
+    text-wrap: balance;
+    align-items: self-end;
+}  
+.principal__sobre-inferior-2-img-texto  img{
+    width: 83px;
+    height: 82px;
+    flex-shrink: 0;
+}
+/*Imagem e texto PARAGRAFO*/
+.principal__sobre-inferior-2-img-texto  p{
+    width: 103px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Noto Sans JP;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+    
+/*RODAPE*/
+footer {
+    display: flex;
+    flex-direction: column;
