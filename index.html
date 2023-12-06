@@ -6,6 +6,7 @@
     <title>Aska Lamen</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!--CABEÇALHO E MENU NAV-->
@@ -30,65 +31,67 @@
         </div>
     </header>
 
-    <!--PRINCIPAL-->
-    <main class="principal">
-        <div class="principal__nosso-lamen">
-            <!--Slide 01-->
-            <div class="nosso-lamen__slide" id="slidemenor1">
-                <!--Imagem do slide-->
-                <div class="nosso-lamen__imagem">
-                    <img src="img/Lamen_04.png" alt="imagem lamen">
-                </div>
-                <!--Texto do slide--> 
-                <div class="nosso-lamen__texto">
-                    <h1>Principais pratos</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet,       malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
-                    </p>
-                </div>
-            <!--Slide 02-->
-            <div class="nosso-lamen__slide" id="slidemenor2">
-                <!--Imagem do slide-->
-                <div class="nosso-lamen__imagem">
-                    <img src="img/Lamen_03.png" alt="imagem lamen">
-                </div>
-                <!--Texto do slide--> 
-                <div class="nosso-lamen__texto">
-                    <h1>Macarrão</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet,       malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
-                    </p>
+<!--PRINCIPAL-->
+<main class="principal">
+    <div class="principal__nosso-lamen">
+        <!--Slide 01-->
+        <div class="nosso-lamen__slide" id="slidemenor1">
+            <!-- Conteúdo do Slide 01 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/Lamen_04.png" alt="imagem lamen">
             </div>
-            <!--Slide 03-->
-            <div class="nosso-lamen__slide" id="slidemenor3">
-                <!--Imagem do slide-->
-                <div class="nosso-lamen__imagem">
-                    <img src="img/tigelas.png" alt="imagem lamen">
-                </div>
-                <!--Texto do slide-->  
-                <div class="nosso-lamen__texto">
-                    <h1>Tigelas</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet,       malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
-                    </p>
-                </div>
+            <div class="nosso-lamen__texto">
+                <h1>Principais pratos</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
+            </div>
+        </div>
+        <!--Slide 02-->
+        <div class="nosso-lamen__slide" id="slidemenor2">
+            <!-- Conteúdo do Slide 02 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/Lamen_03.png" alt="imagem lamen">
+            </div>
+            <div class="nosso-lamen__texto">
+                <h1>Macarrão</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
+            </div>
+        </div>
+        <!--Slide 03-->
+        <div class="nosso-lamen__slide" id="slidemenor3">
+            <!-- Conteúdo do Slide 03 -->
+            <div class="nosso-lamen__imagem">
+                <img src="img/tigelas.png" alt="imagem lamen">
+            </div>
+            <div class="nosso-lamen__texto">
+                <h1>Tigelas</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ipsum felis, molestie sit amet sapien sit amet, malesuada mollis nisl. Sed urna mi, vehicula sit amet dui
+                </p>
             </div>
         </div>
 
-        <!--Carrossel bullet points-->
-        <div class="principal__nosso-lamen-bullets">
-            <span class="bullet" onclick="changeSlide(0)"></span>
-            <span class="bullet" onclick="changeSlide(1)"></span>
-            <span class="bullet" onclick="changeSlide(2)"></span>
-        </div>
 
-        <!--Botão IFOOD-->
-        <div class="principal__ifood">
-            <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/lamen-aska-liberdade/aa77efe1-70b5-4380-b7aa-feae1069e940" target="_blank">
-                <img id="ifood__img" src="img/icone_ifood.jpg" alt="icone ifood">
-            </a>
-        </div>
-    </main>
+    </div>
+
+    <!--Carrossel bullet points-->
+    <div class="principal__nosso-lamen-bullets">
+        <span class="bullet" onclick="changeSlide(0)"></span>
+        <span class="bullet" onclick="changeSlide(1)"></span>
+        <span class="bullet" onclick="changeSlide(2)"></span>
+    </div>
+
+    <!--Botão IFOOD-->
+    <div class="principal__ifood">
+        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/lamen-aska-liberdade/aa77efe1-70b5-4380-b7aa-feae1069e940" target="_blank">
+            <img id="ifood__img" src="img/icone_ifood.jpg" alt="icone ifood">
+        </a>
+    </div>
+</main>
+
     
     <!--Segunda parte começa aqui-->
     <!--O ASKA SOBRE -->
