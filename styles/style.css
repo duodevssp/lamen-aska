@@ -206,6 +206,14 @@ a:hover {
     transform: translateX(-50%);
 }
 
+.principal__sobre-superior-separacao {
+    display: flex;
+}
+
+#principal-superior-escrita__id {
+    display: none;
+}
+
 /*Imagens1*/
     .principal__sobre-superior-1-img {
         display: flex;
@@ -448,7 +456,13 @@ footer {
         flex-direction: row;
         width: auto;
     }
+
+    .principal__sobre-superior-separacao {
+        flex-direction: column;
+    }
+
     #principal-superior-escrita__id {
+        display: block;
         width: 108px;
         height: 352px
     }
@@ -650,7 +664,12 @@ footer {
         margin-top: 1%;
     }
 
+    .principal__sobre-superior-separacao {
+        flex-direction: column;
+    }
+
     #principal-superior-escrita__id {
+        display: flex;
         width: 205px;
         height: 678px;
     }
