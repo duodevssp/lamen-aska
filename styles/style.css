@@ -394,3 +394,710 @@ footer {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+:root {
+    --amarelo-dourado: #B38100;
+    --marrom-efeito: #875627;
+}
+
+a {
+	text-decoration: none;
+    color: black;
+}
+
+a:hover {
+	color: var(--amarelo-dourado);
+}
+
+
+/*CABEÇALHO*/
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 176px;
+}
+
+.cabecalho__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 241px;
+    height: 104px;
+    margin-top: 27px;
+}
+
+#nome__titulo {
+    color: var(--amarelo-dourado);
+    font-size: 26px;
+}
+
+.logo__imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo__imagem1 {
+    width: 149px;
+    height: 44px;
+}
+
+#logo__imagem2 {
+    width: 88px;
+    height: 88px;
+}
+
+/*Nav*/
+.nav__lista {
+    display: flex;
+    margin-top: 24px;
+    gap: 22px;
+}
+
+.nav__lista li {
+    font-size: 13px;
+    border-bottom: 1.5px solid var(--amarelo-dourado);
+    padding-bottom: 5px;
+}
+
+#header__redes-sociais {
+    display: none;
+}
+
+/*PRINCIPAL - NOSSO LAMEN*/
+/*Controle dos slides*/
+.principal {
+    overflow: hidden;
+    width: 100vw;
+    position: relative;
+    height: 75vh;
+    margin-top: 15px;
+}
+
+.principal::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90%;
+    height: 2px; /* Ajuste conforme necessário */
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+.principal__nosso-lamen {
+    display: flex;
+    transition: transform 0.5s;
+    width: 100%; 
+    margin-right: 0;
+    position: relative;
+}
+
+/*bullet points slide*/
+.principal__nosso-lamen-bullets {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    margin-top: 15px;
+}
+
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    margin: 0 4px; /* Espaçamento entre bullets */
+    border: 1px solid black;
+}
+
+.bullet.active {
+    background-color: black;
+}
+
+
+/*Estilização slides*/
+.nosso-lamen__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    flex: 0 0 100%;
+
+}
+
+.nosso-lamen__imagem {
+    width: 145px;
+    height: 128px;
+    position: absolute;
+    transform: translateY(-80%);
+}
+
+.nosso-lamen__imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 500px;
+    box-shadow: 0 0 20px var(--marrom-efeito);
+}
+
+.nosso-lamen__texto {
+    border: 5px solid var(--amarelo-dourado);
+    text-align: center;
+    padding-top: 38px;
+}
+
+.nosso-lamen__texto h1 {
+    padding-bottom: 16px;
+}
+
+.nosso-lamen__texto p {
+    width: 248px;
+    padding: 16px;
+    font-size: 12px;
+}
+
+/*Botão Ifood*/
+.principal__ifood {
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 20px;
+}
+
+#ifood__img {
+    width: 81px;
+    height: 81px;
+    border-radius: 50px;
+}
+
+/*O ASKA SOBRE*/
+/*Parte superior*/
+.principal__sobre-superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 374px;
+    margin-right: 5%;
+    position: relative;
+}
+
+.principal__sobre-superior::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 1px; /* Ajuste conforme necessário */
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+/*Imagens1*/
+    .principal__sobre-superior-1-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .principal__sobre-superior-1-img img{
+        width: 124px;
+        height: 121px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+    /*Texto 1*/
+    .principal__sobre-superior-1-texto{ 
+        color: #000;
+        text-align: right;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: normal;
+    }
+    .principal__sobre-superior-1-texto p{ 
+        width: 180px;
+        height: 288px;
+        flex-shrink: 0;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+
+/*Parte inferior*/
+    .principal__sobre-inferior {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content: space-around;
+        width: 374px;
+        margin-right: 5%;
+        position: relative;
+}
+
+.principal__sobre-inferior::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90%;
+    height: 2px; /* Ajuste conforme necessário */
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+
+/*Imagem Texto Japonês Lateral Imagem*/
+    .principal__sobre-inferior-1 {
+        width: 80px;
+        height: 250px;
+        align-self: center;
+    }
+
+    .principal__sobre-inferior-1 img{
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+/*Imagem e texto Geral*/
+    .principal__sobre-inferior-2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+/*Imagem e texto IMAGEM*/
+.principal__sobre-inferior-2-img-texto {
+    display: flex;
+    flex-direction: row;
+    text-wrap: balance;
+    align-items: self-end;
+    margin-bottom: 18%;
+}  
+.principal__sobre-inferior-2-img-texto  img{
+    width: 95px;
+    height: 100px;
+    flex-shrink: 0;
+}
+/*Imagem e texto PARAGRAFO*/
+.principal__sobre-inferior-2-img-texto  p{
+    width: 103px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 7%;
+    border-bottom: 5px solid black;
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    width: 156px;
+    height: 43.775px;
+    justify-content: space-between;
+}
+
+.rodape__redes-sociais img {
+    width: 100%;
+    height: 100%;
+}
+
+.rodape__dados-endereco {
+    width: 160px;
+}
+
+.rodape__dados-horario {
+    width: 200px;
+}
+
+.rodape__dados-pagamento {
+    margin-bottom: 26px;
+}
+
+/*LAYOUT TABLET (768w)*/
+@media screen and (min-width:768px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cabecalho__logo {
+        align-self: flex-start;
+    }
+
+    #header__redes-sociais {
+        display: flex;
+    }
+
+    .nav__lista {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LAYOUT DESKTOP*/
+@media screen and (min-width: 1440px){
+    /*CABEÇALHO*/
+    .cabecalho__logo {
+        width: 315px;
+        height: 127px;
+        margin-top: 0.5%;
+    }
+
+    #logo__imagem1 {
+        width: 195px;
+        height: 58px;
+    }
+    
+    #logo__imagem2 {
+        width: 115px;
+        height: 115px;
+    }
+
+    .nav__lista li {
+        font-size: 20px;
+    }
+
+    /*PRINCIPAL - Slides*/
+    .principal {
+        padding-bottom: 25px;
+    }
+
+    .nosso-lamen__slide {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+
+    .nosso-lamen__imagem {
+        width: 530px;
+        height: 471px;
+        position: relative;
+        transform: translateX(10%);
+    }
+
+    .nosso-lamen__texto {
+        width: 775px;
+        height: 444px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nosso-lamen__texto h1 {
+        font-size: 42px;
+    }
+
+    .nosso-lamen__texto p {
+        width: 590px; 
+        font-size: 26px;
+    }
+
+    /*bullet points slide*/
+    .bullet {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*Botão Ifood*/
+    #ifood__img {
+        width: 152px;
+        height: 152px;
+        border-radius: 75px;
+    }
+
+
+    /*PRINCIPAL SOBRE - SUPERIOR*/
+    .principal__sobre-superior {
+        width: 1352px;
+        margin: 0;
+        margin-left: 25px;
+        margin-top: 1%;
+    }
+
+    #principal-superior-escrita__id {
+        width: 205px;
+        height: 678px;
+    }
+
+    #principal-superior-escrita__id img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .principal__sobre-superior-1-img {
+        flex-direction: row;
+        gap: 78px;
+    }
+
+    .principal__sobre-superior-1-img img {
+        width: 377px;
+        height: 367px;
+    }
+
+    .principal__sobre-superior-1-texto p {
+        width: 832px;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .principal__sobre-inferior {
+        margin: 0;
+        width: 1352px;
+    }
+
+    /*Escrita invisível*/
+    .principal__sobre-inferior-1 {
+        display: none;
+    }
+
+    .principal__sobre-inferior-2 {
+        flex-direction: row;
+        gap: 129px;
+        margin-top: 5%;
+    }
+
+    /*Orientação das imagens inferiores*/
+    .principal__sobre-inferior-2-img-texto {
+        flex-direction: column-reverse;
+        margin-bottom: 5%;
+    } 
+
+    #principal__sobre-inferior-2-img-texto__id {
+        flex-direction: column;
+    }
+
+    /*Tamanho das img/texto*/
+    .principal__sobre-inferior-2-img-texto img {
+        width: 269.473px;
+        height: 266px;
+    }
+
+    .principal__sobre-inferior-2-img-texto p {
+        width: 306px;
+        height: 105px;    
+        font-size: 26px;
+    }
+
+    /*FOOTER*/
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 3%;
+        padding-bottom: 2%;
+        text-align: left;
+    }
+
+    .rodape__dados {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 60px;
+        
+    }
+
+    .rodape__dados, .rodape__nome {
+        margin-left: 4%;
+        font-size: 20px;
+    }
+
+    .rodape__redes-sociais {
+        width: 250px;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+
+    .rodape__dados-endereco {
+        width: 272px;
+    }
+
+    .rodape__dados-horario {
+        width: 323px;
+    }
+
+    .rodape__dados-pagamento {
+        width: 201px;
+    }
+
+}
+
