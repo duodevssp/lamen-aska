@@ -191,7 +191,7 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 90%;
+    width: 80%;
     height: 1px; /* Ajuste conforme necessário */
     background-color: black;
     transform: translateX(-50%);
@@ -203,6 +203,7 @@
         flex-direction: column;
         justify-content: space-around;
         margin-top: 3%;
+        margin-bottom: 5%;
     }
 
     .principal__sobre-superior-1-img img{
@@ -225,6 +226,7 @@
         height: 288px;
         flex-shrink: 0;
         margin-top: 10%;
+        margin-bottom: 5%;
     }
 
 
