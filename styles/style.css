@@ -363,3 +363,164 @@ footer {
         margin: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LAYOUT DESKTOP*/
+@media screen and (min-width: 1440px){
+    /*CABEÇALHO*/
+    .cabecalho__logo {
+        width: 315px;
+        height: 127px;
+        margin-top: 0.5%;
+    }
+
+    #logo__imagem1 {
+        width: 195px;
+        height: 58px;
+    }
+    
+    #logo__imagem2 {
+        width: 115px;
+        height: 115px;
+    }
+
+    .nav__lista li {
+        font-size: 20px;
+    }
+
+    /*PRINCIPAL - Slides*/
+    .principal {
+        padding-bottom: 25px;
+    }
+
+    .nosso-lamen__slide {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+
+    .nosso-lamen__imagem {
+        width: 530px;
+        height: 471px;
+        position: relative;
+        transform: none;
+    }
+
+    .nosso-lamen__texto {
+        width: 775px;
+        height: 444px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nosso-lamen__texto h1 {
+        font-size: 42px;
+    }
+
+    .nosso-lamen__texto p {
+        width: 590px; 
+        font-size: 26px;
+    }
+
+}
