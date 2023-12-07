@@ -19,7 +19,6 @@ a:hover {
 	color: var(--amarelo-dourado);
 }
 
-
 /*CABEÇALHO*/
 .cabecalho {
     display: flex;
@@ -345,25 +344,104 @@ footer {
 
 /*LAYOUT TABLET (768w)*/
 @media screen and (min-width:768px) {
-    .cabecalho {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
+        /*CABEÇALHO*/
+        .cabecalho {
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+        }
+        
+        .cabecalho__logo {
+            align-self: flex-start;
+            width: 172px;
+            height: 69px;
+            margin-top: 0.5%;
+        }
     
-    .cabecalho__logo {
-        align-self: flex-start;
-    }
+        #header__redes-sociais {
+            display: flex;
+            justify-content: center;
+        }
+    
+        #logo__imagem1 {
+            width: 106px;
+            height: 31px;
+        }
+        
+        #logo__imagem2 {
+            width: 63px;
+            height: 63px;
+        }
+    
+        .nav__lista li {
+            margin: 0;
+            font-size: 16px;
+        }
 
-    #header__redes-sociais {
-        display: flex;
-    }
-
-    .nav__lista {
-        margin: 0;
-    }
+    /*PRINCIPAL - Slides*/
     .principal {
-        height: 42vh;
+        padding-bottom: 25px;
+        height: 80vh;
+    }
+
+    .nosso-lamen__slide {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        margin-top: 15%;
+    }
+
+    .nosso-lamen__imagem {
+        width: 323px;
+        height: 286px;
+        position: relative;
+        transform: translateX(11%);
+    }
+
+    .nosso-lamen__texto {
+        width: 400px;
+        height: 270px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nosso-lamen__texto h1 {
+        font-size: 32px;
+    }
+
+    .nosso-lamen__texto p {
+        width: 337px;
+        font-size: 24px;
+        padding-left: 15%;
+    }
+
+    /*bullet points slide*/
+    .bullet {
+        width: 12px;
+        height: 12px;
+    }
+
+    .principal__nosso-lamen-bullets {
+        margin-top: 4%;
+    }
+
+    /*Botão Ifood*/
+    #ifood__img {
+        width: 152px;
+        height: 152px;
+        border-radius: 75px;
+    }
+
+    .principal__ifood {
+        position: fixed;
+        z-index: 2;
+        bottom: 8%;
+        right: 5%;
     }
 
     .principal__sobre-superior {
@@ -427,6 +505,7 @@ footer {
         flex-direction: column-reverse;
     }
 
+    /*FOOTER*/
     footer {
         flex-direction: column;
         justify-content: space-around;
@@ -434,50 +513,60 @@ footer {
         margin-top: 3%;
         padding-bottom: 2%;
         text-align: left;
+        width: auto;
     }
 
-    .rodapedados {
+    .rodape__dados {
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
-        gap: 60px;
-
+        gap: 2%;
+        
     }
 
-    .rodapedados, .rodapenome {
-        margin-left: 4%;
-        font-size: 20px;
+    .rodape__dados, .rodape__nome {
+        margin-left: 6%;
+        font-size: 12px;
     }
 
-    .rodaperedes-sociais {
-        width: 250px;
+    .rodape__redes-sociais {
+        width: 170px;
         justify-content: flex-start;
         gap: 5px;
     }
 
-    .rodapedados-endereco {
-        width: 272px;
+    .rodape__dados-endereco {
+        width: 160px;
     }
 
-    .rodapedados-horario {
-        width: 323px;
+    .rodape__dados-horario {
+        width: 125px;
     }
 
     .rodape__dados-pagamento {
         width: 201px;
     }
+
 }
-
-
-
 
 /*LAYOUT DESKTOP*/
 @media screen and (min-width: 1440px){
     /*CABEÇALHO*/
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
     .cabecalho__logo {
+        align-self: flex-start;
         width: 315px;
         height: 127px;
         margin-top: 0.5%;
+    }
+
+    #header__redes-sociais {
+        display: flex;
     }
 
     #logo__imagem1 {
@@ -491,12 +580,14 @@ footer {
     }
 
     .nav__lista li {
+        margin: 0;
         font-size: 20px;
     }
 
     /*PRINCIPAL - Slides*/
     .principal {
         padding-bottom: 25px;
+        height: 85vh;
     }
 
     .nosso-lamen__slide {
@@ -539,6 +630,10 @@ footer {
         height: 12px;
     }
 
+    .principal__nosso-lamen-bullets {
+        margin-top: 3%;
+    }
+
     /*Botão Ifood*/
     #ifood__img {
         width: 152px;
@@ -549,7 +644,7 @@ footer {
 
     /*PRINCIPAL SOBRE - SUPERIOR*/
     .principal__sobre-superior {
-        width: 1352px;
+        width: 1400px;
         margin: 0;
         margin-left: 25px;
         margin-top: 1%;
@@ -583,7 +678,8 @@ footer {
 
     .principal__sobre-inferior {
         margin: 0;
-        width: 1352px;
+        width: 1400px;
+        height: auto;
     }
 
     /*Escrita invisível*/
