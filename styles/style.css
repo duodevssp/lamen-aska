@@ -362,4 +362,35 @@ footer {
     .nav__lista {
         margin: 0;
     }
-}
+
+    .principal {
+        height: 42vh;
+    }
+
+    .principal__sobre-superior {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .principal__sobre-superior-1-img {
+        flex-direction: row;
+    }
+
+    .principal__sobre-superior-1-img img {
+        width: 208.167px;
+        height: 201.193px;
+        margin-left: 37px;
+    }
+    .principal__sobre-superior-1-texto p {
+        width: 459.403px;
+        height: 124.992px;
+        font-size: 15px;
+        font-weight: 350;
+        margin-left: 37px;
+        margin-top: -10px;
+    }    
+
+    .principal__sobre-inferior-1 img {
+        display: none;
+    }
+    }
