@@ -501,7 +501,7 @@ footer {
         width: 530px;
         height: 471px;
         position: relative;
-        transform: none;
+        transform: translateX(10%);
     }
 
     .nosso-lamen__texto {
@@ -523,4 +523,132 @@ footer {
         font-size: 26px;
     }
 
+    /*bullet points slide*/
+    .bullet {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*Botão Ifood*/
+    #ifood__img {
+        width: 152px;
+        height: 152px;
+        border-radius: 75px;
+    }
+
+
+    /*PRINCIPAL SOBRE - SUPERIOR*/
+    .principal__sobre-superior {
+        width: 1352px;
+        margin: 0;
+        margin-left: 25px;
+        margin-top: 1%;
+    }
+
+    #principal-superior-escrita__id {
+        width: 205px;
+        height: 678px;
+    }
+
+    #principal-superior-escrita__id img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .principal__sobre-superior-1-img {
+        flex-direction: row;
+        gap: 78px;
+    }
+
+    .principal__sobre-superior-1-img img {
+        width: 377px;
+        height: 367px;
+    }
+
+    .principal__sobre-superior-1-texto p {
+        width: 832px;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .principal__sobre-inferior {
+        margin: 0;
+        width: 1352px;
+    }
+
+    /*Escrita invisível*/
+    .principal__sobre-inferior-1 {
+        display: none;
+    }
+
+    .principal__sobre-inferior-2 {
+        flex-direction: row;
+        gap: 129px;
+        margin-top: 5%;
+    }
+
+    /*Orientação das imagens inferiores*/
+    .principal__sobre-inferior-2-img-texto {
+        flex-direction: column-reverse;
+        margin-bottom: 5%;
+    } 
+
+    #principal__sobre-inferior-2-img-texto__id {
+        flex-direction: column;
+    }
+
+    /*Tamanho das img/texto*/
+    .principal__sobre-inferior-2-img-texto img {
+        width: 269.473px;
+        height: 266px;
+    }
+
+    .principal__sobre-inferior-2-img-texto p {
+        width: 306px;
+        height: 105px;    
+        font-size: 26px;
+    }
+
+    /*FOOTER*/
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 3%;
+        padding-bottom: 2%;
+        text-align: left;
+    }
+
+    .rodape__dados {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 60px;
+        
+    }
+
+    .rodape__dados, .rodape__nome {
+        margin-left: 4%;
+        font-size: 20px;
+    }
+
+    .rodape__redes-sociais {
+        width: 250px;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+
+    .rodape__dados-endereco {
+        width: 272px;
+    }
+
+    .rodape__dados-horario {
+        width: 323px;
+    }
+
+    .rodape__dados-pagamento {
+        width: 201px;
+    }
+
 }
+
