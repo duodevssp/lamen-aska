@@ -59,6 +59,7 @@
 .nav__lista li {
     font-size: 13px;
     border-bottom: 1.5px solid var(--amarelo-dourado);
+    padding-bottom: 5px;
 }
 
 /*PRINCIPAL - NOSSO LAMEN*/
@@ -69,6 +70,17 @@
     position: relative;
     height: 75vh;
     margin-top: 15px;
+}
+
+.principal::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90%;
+    height: 2px; /* Ajuste conforme necessário */
+    background-color: black;
+    transform: translateX(-50%);
 }
 
 .principal__nosso-lamen {
@@ -253,4 +265,206 @@ footer {
 .rodape__redes-sociais img {
     width: 100%;
     height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    border-bottom: 5px solid black;
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    width: 156px;
+    height: 43.775px;
+    justify-content: space-between;
+}
+
+.rodape__redes-sociais img {
+    width: 100%;
+    height: 100%;
+}
+
+.rodape__dados-endereco {
+    width: 160px;
+}
+
+.rodape__dados-horario {
+    width: 200px;
+}
+
+.rodape__dados-pagamento {
+    margin-bottom: 26px;
+}
+
+/*Jogar para o topo*/
+#header__redes-sociais {
+    display: none;
+}
+
+/*LAYOUT TABLET (768w)*/
+@media screen and (min-width:768px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cabecalho__logo {
+        align-self: flex-start;
+    }
+
+    #header__redes-sociais {
+        display: flex;
+    }
+
+    .nav__lista {
+        margin: 0;
+    }
 }
