@@ -10,6 +10,16 @@
     --marrom-efeito: #875627;
 }
 
+a {
+	text-decoration: none;
+    color: black;
+}
+
+a:hover {
+	color: var(--amarelo-dourado);
+}
+
+
 /*CABEÇALHO*/
 .cabecalho {
     display: flex;
