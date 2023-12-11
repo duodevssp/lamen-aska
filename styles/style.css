@@ -150,7 +150,7 @@ a:hover {
 .nosso-lamen__imagem img {
     width: 100%;
     height: 100%;
-    border-radius: 500px;
+    border-radius: 50%;
     box-shadow: 0 0 20px var(--marrom-efeito);
 }
 
@@ -391,6 +391,7 @@ footer {
     .principal {
         padding-bottom: 25px;
         height: 80vh;
+        margin-top: 5%;
     }
 
     .nosso-lamen__slide {
@@ -398,11 +399,11 @@ footer {
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
-        margin-top: 15%;
+        margin-top: 0;
     }
 
     .nosso-lamen__imagem {
-        width: 323px;
+        width: 300px;
         height: 286px;
         position: relative;
         transform: translateX(11%);
@@ -455,6 +456,7 @@ footer {
     .principal__sobre-superior {
         flex-direction: row;
         width: auto;
+        margin-top: 2%;
     }
 
     .principal__sobre-superior-separacao {
@@ -489,11 +491,13 @@ footer {
     }    
 
     .principal__sobre-inferior {
+        margin: 0;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-around;
-        width: 677px;
-        height: 277px;
+        justify-content: center;
+        width: 95%;
+        height: 235px;
+        margin-top: 2%;
     }
     .principal__sobre-inferior-1 {
         display: none;
@@ -502,7 +506,7 @@ footer {
     .principal__sobre-inferior-2 {
         display: flex;
         flex-direction: row;
-        margin-top: 7%;
+        margin-top: 2%;
         gap: 10%;
     }
     .principal__sobre-inferior-2-img-texto  img {
@@ -517,6 +521,7 @@ footer {
     }
     .principal__sobre-inferior-2-img-texto {
         flex-direction: column-reverse;
+        margin: 0;
     }
 
     /*FOOTER*/
@@ -615,8 +620,8 @@ footer {
     }
 
     .nosso-lamen__imagem {
-        width: 530px;
-        height: 471px;
+        width: 485px;
+        height: 465px;
         position: relative;
         transform: translateX(10%);
     }
