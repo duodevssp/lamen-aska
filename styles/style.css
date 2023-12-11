@@ -19,6 +19,10 @@ a:hover {
 	color: var(--amarelo-dourado);
 }
 
+body {
+    background: linear-gradient(180deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+}
+
 /*CABEÇALHO*/
 .cabecalho {
     display: flex;
@@ -194,7 +198,8 @@ a:hover {
     width: 374px;
     margin-right: 5%;
     position: relative;
-    background: linear-gradient(293deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+    /*background: linear-gradient(293deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+*/
 }
 
 .principal__sobre-superior::before {
@@ -210,7 +215,8 @@ a:hover {
 
 .principal__sobre-superior-separacao {
     display: flex;
-    background: linear-gradient(346deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+   /*background: linear-gradient(346deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+*/
 }
 
 #principal-superior-escrita__id {
@@ -260,8 +266,9 @@ a:hover {
         margin-right: 5%;
         position: relative;
         opacity: 0.75;
-        background: linear-gradient(180deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
-}
+        /*background: linear-gradient(180deg, #F9FAFA 0%, #F3FBFE 27.08%, #F0FBFF 61.98%, rgba(244, 251, 254, 0.57) 81.77%, rgba(250, 251, 253, 0.00) 100%);
+*/
+    }
 
 .principal__sobre-inferior::before {
     content: "";
