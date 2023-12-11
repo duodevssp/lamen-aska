@@ -570,6 +570,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        height: 5%;
     }
     
     .cabecalho__logo {
@@ -581,6 +582,7 @@ footer {
 
     #header__redes-sociais {
         display: flex;
+        justify-content: space-around;
     }
 
     #logo__imagem1 {
@@ -600,8 +602,8 @@ footer {
 
     /*PRINCIPAL - Slides*/
     .principal {
-        padding-bottom: 25px;
-        height: 85vh;
+        padding-bottom: 5%;
+        height: 80vh;
     }
 
     .nosso-lamen__slide {
