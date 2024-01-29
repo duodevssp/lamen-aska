@@ -374,6 +374,7 @@ footer {
     font-size: small;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 7%;
 }
 .rodape__dados-endereco p, .rodape__dados-horario p, .rodape__dados-pagamento p  {
     font-size: medium;
@@ -599,6 +600,9 @@ footer {
     .rodape__dados-pagamento {
         width: 25%;
     }
+    .rodape__dados-endereco h3, .rodape__dados-horario h3, .rodape__dados-pagamento h3 {
+        margin: 0;
+    }
 
 }
 
@@ -814,6 +818,9 @@ footer {
 
     .rodape__dados-pagamento {
         width: 201px;
+    }
+    .rodape__dados-endereco h3, .rodape__dados-horario h3, .rodape__dados-pagamento h3 {
+        margin: 0;
     }
 
 }
